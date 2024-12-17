@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Document</title>
+    <!-- Подключение Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid bg-light p-3 d-flex align-items-center justify-content-between border-bottom">
+        <div class="d-flex align-items-center">
+            <div class="bg-primary square rounded-2" style="width: 40px; height: 40px;"></div>
+            <p class="ms-2 mb-0 fs-5">Logo</p>
+        </div>
+        <div class="text-end">
+            <h3 class="mb-0">Группа ЭФБО 03-23</h3>
+            <h4 class="text-muted mb-0">Малков Алексей</h4>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="practice_1.1.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="practice_3.html">Первый семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="practice_3.html">Второй семестр</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Авторизация</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Левый блок -->
+            <aside class="col-md-3 bg-light p-3 border-end">
+                <h4 class="fw-bold">Навигация по странице</h4>
+                <ul class="list-unstyled">
+                    <li><a class="text-dark" href="">Фронтенд</a></li>
+                    <li><a class="text-dark" href="">Бекенд</a></li>
+                </ul>
+            </aside>
+
+            <!-- Middle Side -->
+            <main class="col-md-9">
+
+                <section class="firstblockmidside p-4">
+                    <h2 class="text-center mb-4">Разработка веб-приложений</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Индикаторы -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="practice_2.html">
+                                    <img src="picture.jpeg" class="d-block w-100" alt="Сайт-визитка">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="practice_2.html">
+                                    <img src="picture.jpeg" class="d-block w-100" alt="Корпоративный сайт">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="practice_2.html">
+                                    <img src="picture.jpeg" class="d-block w-100" alt="Интернет-магазин">
+                                </a>
+                            </div>
+                        </div>
+                        
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+                </section>
+                
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <strong class="fs-1">Фронтенд</strong>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Фронтенд (или Frontend) — это часть веб-разработки, которая отвечает за то, как сайт или веб-приложение выглядит и как взаимодействует с пользователем. Фронтенд — это всё, что пользователь видит на экране своего устройства и с чем он взаимодействует. Это визуальная составляющая веб-приложений, и её цель — обеспечить удобный и понятный интерфейс.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <strong class="fs-1">Бекенд</strong>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Бекенд (или Backend) — это серверная часть веб-приложения, которая обрабатывает данные, логику и функциональность, находящиеся "за кулисами", то есть всё, что происходит на сервере, в отличие от того, что видит пользователь (это фронтенд).</div>
+                      </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="d-flex justify-content-between align-items-center p-3 border-top">
+        <div class="by">
+            <h3>Алексей Малков, 2024</h3>
+        </div>
+        <div class="socials">
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a href="" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                <li class="ms-3"><a href="" target="_blank"><i class="fa-brands fa-telegram fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
